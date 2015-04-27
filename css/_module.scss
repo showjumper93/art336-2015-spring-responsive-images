@@ -1,0 +1,36 @@
+/* Module.scss */
+
+header[role="banner"] {
+	background-color: #90d7ff;
+	padding: 6px 0;
+	text-align: center;
+	width: 100%;
+	@media screen and (min-width: 640px) {
+		background-color: #aee27e;
+	}
+	@media screen and (min-width: 1024px) {
+		background-color: #ce6bd7;
+	}
+}
+
+header[role="banner"]:before {
+	color: #fff;
+	content: "320px";
+	@media screen and (min-width: 640px) {
+		content: "640px";
+	}
+	@media screen and (min-width: 1024px) {
+		content: "1024px";
+	}
+}
+
+main[role="main"] {
+	margin-top: 40px;
+	text-align: center;
+}
+
+main[role="main"] h1 {
+	margin-bottom: 5px;
+	margin-top: 40px;
+	text-transform: uppercase;
+}

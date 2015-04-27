@@ -1,0 +1,1 @@
+// @koala-prepend "vendor/console-errors.js"
